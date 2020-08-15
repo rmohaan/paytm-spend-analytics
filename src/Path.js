@@ -152,7 +152,7 @@ class Path extends React.Component {
           d={this.state.path}
           fill={this.props.fill}
           stroke={this.props.stroke}
-          strokeWidth={this.props.strokeWidth ? this.props.strokeWidth : 3}
+          strokeWidth={this.props.strokeWidth ? this.props.strokeWidth : 1}
         />
         {this.props.showLabel && this.props.percentValue > 5 ? (
           <text
@@ -167,7 +167,7 @@ class Path extends React.Component {
           </text>
         ) : null}
         {this.props.subTitle1 ? (
-          <SubTitle {...this.props} textAnchor="middle" fill="#aaa" />
+          <SubTitle {...this.props} textAnchor="middle"/>
         ) : null}
       </g>
     );

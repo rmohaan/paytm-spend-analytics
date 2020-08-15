@@ -5,6 +5,7 @@ const SpentChart = ({
   data,
   subTitle1,
   subTitle2,
+  subTitleColor,
   radius,
   hole,
   colors,
@@ -18,6 +19,7 @@ const SpentChart = ({
       data={data}
       subTitle1={subTitle1}
       subTitle2={subTitle2}
+      subTitleColor={subTitleColor}
       radius={radius}
       hole={hole}
       colors={colors}

@@ -1,5 +1,5 @@
 import React from "react";
-import Slice from "./Path";
+import Path from "./Path";
 
 const Pie = ({ radius, data, colors, hole, strokeWidth, ...props }) => {
   let colorsLength = colors.length,
@@ -30,7 +30,7 @@ const Pie = ({ radius, data, colors, hole, strokeWidth, ...props }) => {
         startAngle += angle;
 
         return (
-          <Slice
+          <Path
             key={itemIndex}
             value={item}
             percent={percent}

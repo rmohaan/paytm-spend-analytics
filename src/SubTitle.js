@@ -6,11 +6,12 @@ const SubTitle = ({
   textAnchor,
   subTitle1,
   subTitle2,
+  subTitleColor,
   currency
 }) => {
   return (
-    <text x={radius} y={radius} fill={fill} textAnchor={textAnchor}>
-      <tspan>{subTitle1}</tspan>
+    <text x={radius} y={radius} fill={subTitleColor} textAnchor={textAnchor}>
+      <tspan style={{fontSize: 10}}>{subTitle1}</tspan>
       <tspan x={radius} y={radius + 20}>
         {currency}
         {subTitle2}
