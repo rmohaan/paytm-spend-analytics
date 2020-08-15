@@ -1,7 +1,7 @@
 import React from "react";
 import Pie from "./Pie";
 
-const Item = ({
+const SpentChart = ({
   data,
   subTitle1,
   subTitle2,
@@ -29,4 +29,4 @@ const Item = ({
   );
 };
 
-export default Item;
+export default SpentChart;
