@@ -13,6 +13,12 @@ const Pie = ({ radius, data, colors, hole, strokeWidth, ...props }) => {
 
   startAngle = 0;
 
+  if (sum == 0) {
+    data = [1,1];
+    colors = ["#eee", "#eee"];
+    sum = 2;
+  }
+
   return (
     <svg
       width={diameter}
@@ -21,7 +27,9 @@ const Pie = ({ radius, data, colors, hole, strokeWidth, ...props }) => {
       xmlns="http://www.w3.org/2000/svg"
       version="1.1"
     >
-      {data.map((item, itemIndex) => {
+      {
+        data.map((item, itemIndex) => {
+          console.log(item);
         let angle, nextAngle, percent;
 
         nextAngle = startAngle;

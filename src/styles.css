@@ -7,3 +7,12 @@
   padding-left: 25px;
   padding-top: 25px;
 }
+
+.list-text {
+  color: black;
+}
+
+.spent-content {
+  padding-left: 10px !important;
+  width: 150px !important;
+}
