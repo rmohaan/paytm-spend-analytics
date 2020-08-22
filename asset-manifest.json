@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/rmohaan/paytm-spend-analytics/static/css/main.3bfa9dea.chunk.css",
-    "main.js": "/rmohaan/paytm-spend-analytics/static/js/main.3f643383.chunk.js",
-    "main.js.map": "/rmohaan/paytm-spend-analytics/static/js/main.3f643383.chunk.js.map",
-    "runtime-main.js": "/rmohaan/paytm-spend-analytics/static/js/runtime-main.b492707a.js",
-    "runtime-main.js.map": "/rmohaan/paytm-spend-analytics/static/js/runtime-main.b492707a.js.map",
-    "static/js/2.a0509bf8.chunk.js": "/rmohaan/paytm-spend-analytics/static/js/2.a0509bf8.chunk.js",
-    "static/js/2.a0509bf8.chunk.js.map": "/rmohaan/paytm-spend-analytics/static/js/2.a0509bf8.chunk.js.map",
-    "index.html": "/rmohaan/paytm-spend-analytics/index.html",
-    "precache-manifest.6e7ad4925680588ba27f02677b0cdb3f.js": "/rmohaan/paytm-spend-analytics/precache-manifest.6e7ad4925680588ba27f02677b0cdb3f.js",
-    "service-worker.js": "/rmohaan/paytm-spend-analytics/service-worker.js",
-    "static/css/main.3bfa9dea.chunk.css.map": "/rmohaan/paytm-spend-analytics/static/css/main.3bfa9dea.chunk.css.map",
-    "static/js/2.a0509bf8.chunk.js.LICENSE.txt": "/rmohaan/paytm-spend-analytics/static/js/2.a0509bf8.chunk.js.LICENSE.txt"
+    "main.css": "/paytm-spend-analytics/static/css/main.3bfa9dea.chunk.css",
+    "main.js": "/paytm-spend-analytics/static/js/main.3f643383.chunk.js",
+    "main.js.map": "/paytm-spend-analytics/static/js/main.3f643383.chunk.js.map",
+    "runtime-main.js": "/paytm-spend-analytics/static/js/runtime-main.5812aad4.js",
+    "runtime-main.js.map": "/paytm-spend-analytics/static/js/runtime-main.5812aad4.js.map",
+    "static/js/2.a0509bf8.chunk.js": "/paytm-spend-analytics/static/js/2.a0509bf8.chunk.js",
+    "static/js/2.a0509bf8.chunk.js.map": "/paytm-spend-analytics/static/js/2.a0509bf8.chunk.js.map",
+    "index.html": "/paytm-spend-analytics/index.html",
+    "precache-manifest.be6d356e2e24df321ab8f76f4995ae66.js": "/paytm-spend-analytics/precache-manifest.be6d356e2e24df321ab8f76f4995ae66.js",
+    "service-worker.js": "/paytm-spend-analytics/service-worker.js",
+    "static/css/main.3bfa9dea.chunk.css.map": "/paytm-spend-analytics/static/css/main.3bfa9dea.chunk.css.map",
+    "static/js/2.a0509bf8.chunk.js.LICENSE.txt": "/paytm-spend-analytics/static/js/2.a0509bf8.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.b492707a.js",
+    "static/js/runtime-main.5812aad4.js",
     "static/js/2.a0509bf8.chunk.js",
     "static/css/main.3bfa9dea.chunk.css",
     "static/js/main.3f643383.chunk.js"
