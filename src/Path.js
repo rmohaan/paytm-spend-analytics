@@ -31,16 +31,33 @@ class Path extends React.Component {
     if (nextProps.radius !== prevState.radius) {
       return { radius: nextProps.radius };
     } else if (nextProps.hole !== prevState.hole) {
-      return { hole: nextProps.hole };
+      return { hole: nextProps.hole, trueHole: nextProps.hole };
+    } else if (nextProps.value !== prevState.value) {
+      return { value: nextProps.value };
+    } else if (nextProps.percent !== prevState.percent) {
+      return { percent: nextProps.percent };
+    } else if (nextProps.percentValue !== prevState.percentValue) {
+      return { percentValue: nextProps.percentValue };
+    } else if (nextProps.startAngle !== prevState.startAngle) {
+      return { startAngle: nextProps.startAngle };
+    } else if (nextProps.angle !== prevState.angle) {
+      return { angle: nextProps.angle };
+    } else if (nextProps.fill !== prevState.fill) {
+      return { fill: nextProps.fill };
     } else return null;
   }
 
   componentDidUpdate(prevProps, _prevState) {
     if (
       prevProps.radius !== this.props.radius ||
-      prevProps.hole !== this.props.hole
+      prevProps.hole !== this.props.hole ||
+      prevProps.value !== this.props.value ||
+      prevProps.percent !== this.props.percent ||
+      prevProps.percentValue !== this.props.percentValue ||
+      prevProps.startAngle !== this.props.startAngle ||
+      prevProps.angle !== this.props.angle ||
+      prevProps.fill !== this.props.fill
     ) {
-      console.log("slicehit");
       this.setState({ path: "" });
       this.animate();
     }
@@ -61,8 +78,7 @@ class Path extends React.Component {
       return;
     }
 
-    console.log("slicedraw");
-
+    
     let p = this.props,
       path = [],
       a,

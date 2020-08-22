@@ -35,9 +35,7 @@ const GenerateSpentContent = ({
           currency={currency}
         />
       </Item.Image>
-      <Item.Content
-        style={additionalContentStyle ? additionalContentStyle : {}}
-      >
+      <Item.Content style={additionalContentStyle ? additionalContentStyle : {}}>
         <ChartLegend textContents={textContents} colors={listColors} />
       </Item.Content>
     </Item>

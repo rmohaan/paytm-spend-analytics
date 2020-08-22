@@ -1,13 +1,11 @@
 import React from 'react';
-import {Card} from 'semantic-ui-react';
+import {Card, Header} from 'semantic-ui-react';
 import GenerateFavouriteStoreContent from './GenerateFavouriteStoreContent';
 
 const FavouriteStores = ({favStores}) => {
     return (
         <React.Fragment>
-            <div className="ui header">
-                Favourite Stores
-            </div>
+            <Header size='medium'>Favourite Stores</Header>
             <Card.Group itemsPerRow={3}>
                 { favStores.map((store, i) => {
                     return (

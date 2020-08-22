@@ -16,3 +16,27 @@
   padding-left: 10px !important;
   width: 150px !important;
 }
+
+section {
+  padding-bottom: 20px;
+}
+
+.category-card {
+  width: 100% !important;
+}
+
+.fuel-transport-icon {
+  color: #7B43A1 !important;
+  background: #EBDEF0 !important;
+}
+
+.user-services-icon {
+  color: #D35400 !important;
+  background: #F6DDCC !important;
+}
+
+.health-care-icon {
+  color: #1ABC9C !important;
+  background: #D1F2EB !important;
+}
+ 

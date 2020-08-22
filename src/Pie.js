@@ -13,10 +13,15 @@ const Pie = ({ radius, data, colors, hole, strokeWidth, ...props }) => {
 
   startAngle = 0;
 
-  if (sum == 0) {
+  if (sum === 0) {
     data = [1,1];
     colors = ["#eee", "#eee"];
     sum = 2;
+  }
+
+  if (data.length === 1) {
+    data.push(1);
+    sum += 1;
   }
 
   return (
@@ -29,7 +34,6 @@ const Pie = ({ radius, data, colors, hole, strokeWidth, ...props }) => {
     >
       {
         data.map((item, itemIndex) => {
-          console.log(item);
         let angle, nextAngle, percent;
 
         nextAngle = startAngle;

@@ -5,12 +5,9 @@ import GenerateSpentContent from './GenerateSpentContent';
 
 const SpentContents = ({monthlySplitUp}) => {
 
-    const data = [5, 12, 8, 3, 10],
-        subTitle1 = "Money Spent",
-        subTitle2 = "0",
+    const subTitle1 = "Money Spent",
         subTitle3 = "Money Received",
         currency = "\u20B9",
-        dummyAmount = 50,
         showLabel = false,
         colors = ["#43A19E", "#7B43A1", "#F2317A", "#ff8c00", "#58CF6C", "#ffc40c", "#1e90ff"],
         radius = 60,
@@ -22,7 +19,6 @@ const SpentContents = ({monthlySplitUp}) => {
         <Item.Group>
             {
                 monthlySplitUp.map( (monthlyData, i) => {
-                    console.log(monthlyData);
                     return (
                         <React.Fragment key={i}>
                             <GenerateSpentContent
@@ -41,7 +37,7 @@ const SpentContents = ({monthlySplitUp}) => {
                             <Divider />
                             <GenerateSpentContent
                                 data={monthlyData.earningSplit}
-                                subTitle1={subTitle1}
+                                subTitle1={subTitle3}
                                 subTitle2={monthlyData.totalReceived}
                                 subTitleColor={""}
                                 colors={colors}
